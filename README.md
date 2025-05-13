@@ -24,13 +24,13 @@ This notebook explores relationships between vaccination rates and selected pred
 - Visualization with Plotly and Seaborn
 - Initial insights into trends by region and year
 
-## 🧪 Data Sources
+## Data Sources
 - [UNICEF Immunization Data](https://data.unicef.org/topic/child-health/immunization/)
 - [World Bank Open Data](https://data.worldbank.org/)
 - [World Values Survey](https://www.worldvaluessurvey.org/)
 - [V-Dem Dataset](https://www.v-dem.net/)
 
-## 📦 Requirements
+## Requirements
 The analysis uses the following Python libraries:
 - `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `scipy`
 
