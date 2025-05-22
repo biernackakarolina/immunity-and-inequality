@@ -31,7 +31,8 @@ This file allows interactive exploration of vaccination trends and relationships
 - Economic Development vs. Vaccinations Comparison
 - Internet Use Impact as the strongest predictor
 - Country Case Explorer with country-level patterns & indicators
-Source file: data/processed/00_Immunization_db.csv
+  
+Use file: data/processed/00_Immunization_db.csv
   
 
 ## Data Sources
@@ -39,7 +40,3 @@ Source file: data/processed/00_Immunization_db.csv
 - [World Bank Open Data](https://data.worldbank.org/)
 - [World Values Survey](https://www.worldvaluessurvey.org/)
 - [V-Dem Dataset](https://www.v-dem.net/)
-
-Install all requirements using:
-```bash
-pip install -r requirements.txt
