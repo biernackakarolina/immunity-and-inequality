@@ -2,7 +2,7 @@
 
 This project explores global vaccination trends using data from UNICEF, the World Bank, the World Values Survey, and V-Dem. The goal is to understand how socioeconomic, political, and technological factors — such as GDP, health expenditure, internet use, government trust, and polarization — influence vaccination rates across countries.
 
-## Notebooks
+## Files
 
 ### 1. `Data Preparation.ipynb`
 This notebook focuses on cleaning, aligning, and merging data from multiple sources. Key steps include:
@@ -24,15 +24,21 @@ This notebook explores relationships between vaccination rates and selected pred
 - Visualization with Plotly and Seaborn
 - Initial insights into trends by region and year
 
+
+### 3. `Power BI Dashboard.pbix`
+This file allows interactive exploration of vaccination trends and relationships with predictors. It includes the following dashboads:
+- Global Trends Overview with COVID-19 impact
+- Economic Development vs. Vaccinations Comparison
+- Internet Use Impact as the strongest predictor
+- Country Case Explorer with country-level patterns & indicators
+Source file: data/processed/00_Immunization_db.csv
+  
+
 ## Data Sources
 - [UNICEF Immunization Data](https://data.unicef.org/topic/child-health/immunization/)
 - [World Bank Open Data](https://data.worldbank.org/)
 - [World Values Survey](https://www.worldvaluessurvey.org/)
 - [V-Dem Dataset](https://www.v-dem.net/)
-
-## Requirements
-The analysis uses the following Python libraries:
-- `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `scipy`
 
 Install all requirements using:
 ```bash
