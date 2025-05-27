@@ -1,4 +1,4 @@
-def read_and_check_quality(filepath):
+def read_and_check_quality(filepath, vac_iso_codes):
     """
     - Reads the file skipping first 4 rows
     - Chooses columns for country name and code, and years 2012-2022
@@ -10,6 +10,7 @@ def read_and_check_quality(filepath):
     Returns:
         pd.DataFrame: Filtred dataframe
     """
+    import pandas as pd
     
     #reading the file
     df = pd.read_csv(filepath, skiprows=4)
@@ -42,6 +43,8 @@ def clean_and_merge(df, countries_map, code_column='Country Code'):
     Returns:
         pd.DataFrame: Cleaned and reordered dataframe
     """
+    import pandas as pd
+    
     # Drop rows with at least 4 missing values
     df = df.dropna(thresh=df.shape[1] - 4)
 
